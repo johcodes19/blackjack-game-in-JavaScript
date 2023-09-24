@@ -1,0 +1,33 @@
+body {
+    background-color: #013220;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+#gameDiv {
+    width: 80%;
+    margin: auto;
+    background-color: #0E5C28;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+button {
+    background-color: #FDB827;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+button:disabled{
+    background-color: grey;
+}
+
+h3, h4 {
+    color: white;
+}
