@@ -31,3 +31,11 @@ button:disabled{
 h3, h4 {
     color: white;
 }
+@keyframes colorfulAnimation {
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    75%  {background-color: green;}
+    100% {background-color: red;}
+  }
+  
